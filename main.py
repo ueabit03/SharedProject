@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 root = tk.Tk()
 root.title("Rejestr książek")
-# Wersja po zmianach
+# Wersja po zmianach i dodatkowy komentarz
 label_title = tk.Label(root, text="Tytuł książki:", fg="dark green", bg="#FFFF00")
 label_title.grid(row=0, column=0, padx=10, pady=5, sticky="w")
 entry_title = tk.Entry(root, width=40)

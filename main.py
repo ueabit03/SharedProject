@@ -7,7 +7,7 @@ label_title = tk.Label(root, text="Tytuł książki:", fg="dark green", bg="#FFF
 label_title.grid(row=0, column=0, padx=10, pady=5, sticky="w")
 entry_title = tk.Entry(root, width=40)
 entry_title.grid(row=0, column=1, padx=10, pady=5)
-label_author = tk.Label(root, text="Autor:")
+label_author = tk.Label(root, text="Autor:" , fg="blue")
 label_author.grid(row=1, column=0, padx=10, pady=5, sticky="w")
 entry_author = tk.Entry(root, width=40)
 entry_author.grid(row=1, column=1, padx=10, pady=5)
